@@ -1,0 +1,18 @@
+language: objective-c
+osx_image: xcode10.2
+
+cache: cocoapods
+
+before_install:
+    - gem install cocoapods --no-document --quiet
+    - pod --version
+    - pod repo update --silent
+
+    - brew update
+    - brew install carthage
+    - carthage version
+script:
+    - pod lib lint
+
+    - bin/update
+    - bin/carthage-lint
