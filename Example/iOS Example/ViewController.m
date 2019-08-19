@@ -40,7 +40,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
 
-    cell.textLabel.text = [NSString randomStringWithLength:ESRandomNumber(3, 12)];
+    cell.textLabel.text = ESRandomString(ESRandomNumber(3, 12));
 
     return cell;
 }
