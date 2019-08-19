@@ -13,8 +13,8 @@ PODS:
     - AFNetworking/Reachability (>= 2.0)
     - ESFramework/Foundation
     - ESFramework/Network
-  - ESFrameworkUI (3.10.0):
-    - ESFramework (~> 3.0)
+  - ESFrameworkUI (3.11.0):
+    - ESFramework (~> 3.18)
 
 DEPENDENCIES:
   - ESFrameworkUI (from `.`)
@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   ESFramework: 8b2ba4521aed84ae506e84d4c5d16441cbd949c8
-  ESFrameworkUI: 9af6f6e66dc01849431242cebaa2b08e0687b174
+  ESFrameworkUI: fecb30ecfa986a4559de226f99448cfc3b01498d
 
 PODFILE CHECKSUM: 2bb04f56c9652e309bf527d0211212c019feba57
 
