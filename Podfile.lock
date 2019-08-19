@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking/Reachability (3.2.1)
+  - ESFramework (3.18.0):
+    - ESFramework/Core (= 3.18.0)
+    - ESFramework/Foundation (= 3.18.0)
+    - ESFramework/Network (= 3.18.0)
+    - ESFramework/UIKit (= 3.18.0)
+  - ESFramework/Core (3.18.0)
+  - ESFramework/Foundation (3.18.0):
+    - ESFramework/Core
+  - ESFramework/Network (3.18.0)
+  - ESFramework/UIKit (3.18.0):
+    - AFNetworking/Reachability (>= 2.0)
+    - ESFramework/Foundation
+    - ESFramework/Network
+  - ESFrameworkUI (3.10.0):
+    - ESFramework (~> 3.0)
+
+DEPENDENCIES:
+  - ESFrameworkUI (from `.`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ESFramework
+
+EXTERNAL SOURCES:
+  ESFrameworkUI:
+    :path: "."
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ESFramework: 8b2ba4521aed84ae506e84d4c5d16441cbd949c8
+  ESFrameworkUI: 9af6f6e66dc01849431242cebaa2b08e0687b174
+
+PODFILE CHECKSUM: 2bb04f56c9652e309bf527d0211212c019feba57
+
+COCOAPODS: 1.7.5
