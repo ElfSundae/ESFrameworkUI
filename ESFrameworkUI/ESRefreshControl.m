@@ -312,13 +312,13 @@ static void *_esRefreshControlKVOContext = &_esRefreshControlKVOContext;
 
 @end
 
-ESDefineAssociatedObjectKey(esRefreshControl)
+static const void *refreshControlKey = &refreshControlKey;
 
 @implementation UIScrollView (ESRefreshControl)
 
 - (ESRefreshControl *)es_refreshControl
 {
-    return objc_getAssociatedObject(self, esRefreshControlKey);
+    return objc_getAssociatedObject(self, refreshControlKey);
 }
 
 - (void)setEs_refreshControl:(ESRefreshControl *)refreshControl
@@ -332,7 +332,7 @@ ESDefineAssociatedObjectKey(esRefreshControl)
     }
 
     [self willChangeValueForKey:@"es_refreshControl"];
-    objc_setAssociatedObject(self, esRefreshControlKey, refreshControl, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, refreshControlKey, refreshControl, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     [self didChangeValueForKey:@"es_refreshControl"];
 }
 

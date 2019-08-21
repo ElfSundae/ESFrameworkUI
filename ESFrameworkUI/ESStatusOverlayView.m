@@ -152,7 +152,7 @@
 
 @end
 
-ESDefineAssociatedObjectKey(statusOverlayView)
+static const void *statusOverlayViewKey = &statusOverlayViewKey;
 
 @implementation UIViewController (ESStatusOverlayView)
 
