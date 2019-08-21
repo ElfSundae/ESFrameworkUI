@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E79664B0230CE3C1003D0AFD /* ESActivityLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESActivityLabel.h; sourceTree = "<group>"; };
+		E79664B1230CE3C1003D0AFD /* ESActivityLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESActivityLabel.m; sourceTree = "<group>"; };
+		E79664B2230CE3C1003D0AFD /* ESBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESBadgeView.h; sourceTree = "<group>"; };
+		E79664B3230CE3C1003D0AFD /* ESBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESBadgeView.m; sourceTree = "<group>"; };
+		E79664B4230CE3C1003D0AFD /* ESErrorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESErrorView.h; sourceTree = "<group>"; };
+		E79664B5230CE3C1003D0AFD /* ESErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESErrorView.m; sourceTree = "<group>"; };
+		E79664B6230CE3C1003D0AFD /* ESFrameworkUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESFrameworkUI.h; sourceTree = "<group>"; };
+		E79664B7230CE3C1003D0AFD /* ESRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESRefreshControl.h; sourceTree = "<group>"; };
+		E79664B8230CE3C1003D0AFD /* ESRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESRefreshControl.m; sourceTree = "<group>"; };
+		E79664B9230CE3C1003D0AFD /* ESRefreshControlDefaultContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESRefreshControlDefaultContentView.h; sourceTree = "<group>"; };
+		E79664BA230CE3C1003D0AFD /* ESRefreshControlDefaultContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESRefreshControlDefaultContentView.m; sourceTree = "<group>"; };
+		E79664BB230CE3C1003D0AFD /* ESStatusOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESStatusOverlayView.h; sourceTree = "<group>"; };
+		E79664BC230CE3C1003D0AFD /* ESStatusOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESStatusOverlayView.m; sourceTree = "<group>"; };
+		E79664BD230CE3C1003D0AFD /* ESTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESTableViewController.h; sourceTree = "<group>"; };
+		E79664BE230CE3C1003D0AFD /* ESTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E796649A230CE32E003D0AFD = {
+			isa = PBXGroup;
+			children = (
+				E79664AF230CE3C1003D0AFD /* ESFrameworkUI */,
+			);
+			sourceTree = "<group>";
+		};
+		E79664AF230CE3C1003D0AFD /* ESFrameworkUI */ = {
+			isa = PBXGroup;
+			children = (
+				E79664B0230CE3C1003D0AFD /* ESActivityLabel.h */,
+				E79664B1230CE3C1003D0AFD /* ESActivityLabel.m */,
+				E79664B2230CE3C1003D0AFD /* ESBadgeView.h */,
+				E79664B3230CE3C1003D0AFD /* ESBadgeView.m */,
+				E79664B4230CE3C1003D0AFD /* ESErrorView.h */,
+				E79664B5230CE3C1003D0AFD /* ESErrorView.m */,
+				E79664B6230CE3C1003D0AFD /* ESFrameworkUI.h */,
+				E79664B7230CE3C1003D0AFD /* ESRefreshControl.h */,
+				E79664B8230CE3C1003D0AFD /* ESRefreshControl.m */,
+				E79664B9230CE3C1003D0AFD /* ESRefreshControlDefaultContentView.h */,
+				E79664BA230CE3C1003D0AFD /* ESRefreshControlDefaultContentView.m */,
+				E79664BB230CE3C1003D0AFD /* ESStatusOverlayView.h */,
+				E79664BC230CE3C1003D0AFD /* ESStatusOverlayView.m */,
+				E79664BD230CE3C1003D0AFD /* ESTableViewController.h */,
+				E79664BE230CE3C1003D0AFD /* ESTableViewController.m */,
+			);
+			path = ESFrameworkUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E796649B230CE32E003D0AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ES;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "https://0x123.com";
+			};
+			buildConfigurationList = E796649E230CE32E003D0AFD /* Build configuration list for PBXProject "ESFrameworkUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E796649A230CE32E003D0AFD;
+			productRefGroup = E796649A230CE32E003D0AFD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E79664AA230CE32E003D0AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E79664AB230CE32E003D0AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E796649E230CE32E003D0AFD /* Build configuration list for PBXProject "ESFrameworkUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79664AA230CE32E003D0AFD /* Debug */,
+				E79664AB230CE32E003D0AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E796649B230CE32E003D0AFD /* Project object */;
+}
